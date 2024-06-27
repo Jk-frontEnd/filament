@@ -1,6 +1,6 @@
 body {
-    background-color: #a76a83;
-    color: #d5e3ea;
+    background-color: #efead6;
+    color: #09138b;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-    border: 1px solid #d5e3ea;    
+    border: 1px solid #09138b;    
     display: flex;
     align-items: center;
     padding: 16px 20px;
@@ -32,14 +32,14 @@ body {
     background-color: transparent;
     color: inherit;
     font-family: inherit;
-    border: 1px solid #d5e3ea;
+    border: 1px solid #09138b;
     padding: 8px;
     border-radius: 4px;
 }
 
 .status-input {
     background-color: transparent;
-    border: 1px solid #d5e3ea;
+    border: 1px solid #09138b;
     width: 50px;
     height: 40px;
 }
@@ -67,16 +67,22 @@ body {
 }
 
 .link {
-    color: #f7b8ef;
+    color: #720b3f;
     transition: color 350ms ease-in-out;
 }
 
 .link:hover {
-    color: #e6d0de;
+    color: #894276;
 }
 
 .total {
     font-size: 24px;
     display: flex;
     justify-content: right;
+}
+.amount {
+    display: flex;
+    justify-content: right;
+    gap: 4px;
+    font-size: 20px;
 }

@@ -227,6 +227,8 @@
             </div>
         </li>
     </ul>
+    <div class="amount">Всього потрібно <span id="spool-amount"></span> котушок
+    </div>
     <div class="total" id="total-need-result">Сума при замовлені: 0</div>
 
     <script>
@@ -306,6 +308,7 @@
         const updateTotalNeed = () => {
             let totalNeed = Object.values(needs).reduce((sum, need) => sum + need, 0);
             let result = totalNeed * 455;
+            document.querySelector("#spool-amount").textContent = `${totalNeed}`
             document.querySelector("#total-need-result").textContent = `Сума при замовлені: ${result}`;
         };
 
